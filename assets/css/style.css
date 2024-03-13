@@ -78,6 +78,11 @@ html {
   min-height: 21.75rem;
 }
 
+.container_header {
+  max-width: 80rem; /* 1280px */
+  margin: 0 auto;
+}
+
 .section-flex_between {
   display: flex;
   justify-content: space-between;
@@ -111,22 +116,22 @@ html {
   display: block;
 }
 
-.features-section {
+.icons-section {
   background-color: #1e1a13;
 }
 
-.features-section__content {
+.icons-section__content {
   width: 100%;
 }
 
-.icons-section {
+.features-section {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 3.125rem; /* 50px */
 }
 
-.icons-section__item {
+.features-section__item {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -157,5 +162,6 @@ html {
   height: 6.375rem; /* 102px */
 }
 .footer__link {
+  text-decoration: none;
   color: #ffffff;
 }
